@@ -1,11 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
+import { nav_icons, logos } from '../assets/img'
 
-// assets used for NavBar
-import logo from '../assets/img/CZAR-logo.png';
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
 
 export const NavBar = () => {
     // State to track which navigation link is active
@@ -33,7 +29,7 @@ export const NavBar = () => {
         <Navbar expand="lg" className={scrolled ? 'scrolled' : ''}>
             <Container>
                 <Navbar.Brand href="/">
-                    <img src={logo} alt="Logo" />
+                    <img src={logos.logo} alt="Logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
@@ -72,14 +68,14 @@ export const NavBar = () => {
                     <span className="navbar-text">
                         <div className="social-icon">
                             
-                            <a href="#" aria-label="Social Link 1">
-                                <img src={navIcon1} alt="Social Icon 1" />
+                            <a href="/" aria-label="Social Link 1">
+                                <img src={nav_icons.navIcon1} alt="Social Icon 1" />
                             </a>
-                            <a href="#" aria-label="Social Link 2">
-                                <img src={navIcon2} alt="Social Icon 2" />
+                            <a href="/" aria-label="Social Link 2">
+                                <img src={nav_icons.navIcon2} alt="Social Icon 2" />
                             </a>
-                            <a href="#" aria-label="Social Link 3">
-                                <img src={navIcon3} alt="Social Icon 3" />
+                            <a href="/" aria-label="Social Link 3">
+                                <img src={nav_icons.navIcon3} alt="Social Icon 3" />
                             </a>
                         </div>
 

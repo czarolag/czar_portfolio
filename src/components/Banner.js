@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import { logos } from "../assets/img";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 
@@ -78,7 +78,7 @@ export const Banner = () => {
                             </span>
                         </h1>
                         <p>
-                            Hi, I'm Cesar, a Computer Science student at CSUDH with a passion for Software Development.
+                            Hi, I'm Cesar Olague, a COMPSCI student at CSUDH with a passion for Software Development.
                             I specialize in Java, Python, and enjoy building AI models and exploring new projects.
                             I am excited about AI and machine learning and eager to contribute to innovative Software Engineering Projects.
                             Explore my projects and let's connect!
@@ -86,7 +86,7 @@ export const Banner = () => {
                         <button onClick={() => window.open('https://www.linkedin.com/in/cesar-olague-225769214/', '_blank')}>Let’s Connect<ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Header Img" style={{ width: '100%', height: 'auto' }} />
+                        <img src={logos.headerImg} alt="Header Img" style={{ width: '100%', height: 'auto' }} />
                     </Col>
                 </Row>
             </Container>
