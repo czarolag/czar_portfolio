@@ -16,7 +16,7 @@ export const Footer = () => (
                         <a href="/"><img src={nav_icons.navIcon3} alt="Icon" /></a>
                     </div>
 
-                    <p className="footer-copy">Copyright 2024. All Rights Reserved</p>
+                    <p className="footer-copy">Copyright 2024. All Rights Reserved.</p>
                 </Col>
             </Row>
         </Container>
