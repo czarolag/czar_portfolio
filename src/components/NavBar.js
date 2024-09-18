@@ -56,7 +56,7 @@ export const NavBar = () => {
                             </a>
                         </div>
 
-                        <button className="vvd" onClick={() => console.log('connect')}>
+                        <button className="vvd" onClick={() => window.open('https://www.linkedin.com/in/cesar-olague-225769214/', '_blank')}>
                             <span>Let's Connect</span>
                         </button>
                     </span>
