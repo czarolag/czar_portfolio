@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/czar_portfolio/static/css/main.bec4396c.css",
-    "main.js": "/czar_portfolio/static/js/main.b5106d6b.js",
+    "main.css": "/czar_portfolio/static/css/main.7b10224a.css",
+    "main.js": "/czar_portfolio/static/js/main.c9d96ae3.js",
     "static/js/453.d44b3402.chunk.js": "/czar_portfolio/static/js/453.d44b3402.chunk.js",
     "static/media/header-img.svg": "/czar_portfolio/static/media/header-img.b9777cecb533f3853cef6be4cea0921f.svg",
+    "static/media/color-sharp2.png": "/czar_portfolio/static/media/color-sharp2.75d19323a94c94e6766f.png",
     "static/media/footer-bg.jpg": "/czar_portfolio/static/media/footer-bg.adb711bfcde7a657b48a.jpg",
     "static/media/banner-background.png": "/czar_portfolio/static/media/banner-background.925c316d4a061580c9a7.png",
     "static/media/Zorgeous.otf": "/czar_portfolio/static/media/Zorgeous.dcd2b93fe56c93484b99.otf",
@@ -12,12 +13,12 @@
     "index.html": "/czar_portfolio/index.html",
     "static/media/nav-icon1.svg": "/czar_portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "static/media/nav-icon2.svg": "/czar_portfolio/static/media/nav-icon2.a39f0e5e47e442dafcc5c9c320f19f6f.svg",
-    "main.bec4396c.css.map": "/czar_portfolio/static/css/main.bec4396c.css.map",
-    "main.b5106d6b.js.map": "/czar_portfolio/static/js/main.b5106d6b.js.map",
+    "main.7b10224a.css.map": "/czar_portfolio/static/css/main.7b10224a.css.map",
+    "main.c9d96ae3.js.map": "/czar_portfolio/static/js/main.c9d96ae3.js.map",
     "453.d44b3402.chunk.js.map": "/czar_portfolio/static/js/453.d44b3402.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bec4396c.css",
-    "static/js/main.b5106d6b.js"
+    "static/css/main.7b10224a.css",
+    "static/js/main.c9d96ae3.js"
   ]
 }
