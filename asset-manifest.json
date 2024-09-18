@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/czar_portfolio/static/css/main.7b10224a.css",
-    "main.js": "/czar_portfolio/static/js/main.c9d96ae3.js",
+    "main.js": "/czar_portfolio/static/js/main.d4db7836.js",
     "static/js/453.d44b3402.chunk.js": "/czar_portfolio/static/js/453.d44b3402.chunk.js",
-    "static/media/header-img.svg": "/czar_portfolio/static/media/header-img.b9777cecb533f3853cef6be4cea0921f.svg",
+    "static/media/header-img.svg": "/czar_portfolio/static/media/header-img.394d6910640c9c536097c7270ef888ef.svg",
     "static/media/color-sharp2.png": "/czar_portfolio/static/media/color-sharp2.75d19323a94c94e6766f.png",
     "static/media/footer-bg.jpg": "/czar_portfolio/static/media/footer-bg.adb711bfcde7a657b48a.jpg",
     "static/media/banner-background.png": "/czar_portfolio/static/media/banner-background.925c316d4a061580c9a7.png",
@@ -11,14 +11,14 @@
     "static/media/CZAR-logo.png": "/czar_portfolio/static/media/CZAR-logo.ed0771473817f2e85ae8.png",
     "static/media/nav-icon3.svg": "/czar_portfolio/static/media/nav-icon3.058eac9196db19bbd6a22028c84185b3.svg",
     "index.html": "/czar_portfolio/index.html",
-    "static/media/nav-icon1.svg": "/czar_portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
-    "static/media/nav-icon2.svg": "/czar_portfolio/static/media/nav-icon2.a39f0e5e47e442dafcc5c9c320f19f6f.svg",
+    "static/media/nav-icon1.svg": "/czar_portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon2.svg": "/czar_portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.7b10224a.css.map": "/czar_portfolio/static/css/main.7b10224a.css.map",
-    "main.c9d96ae3.js.map": "/czar_portfolio/static/js/main.c9d96ae3.js.map",
+    "main.d4db7836.js.map": "/czar_portfolio/static/js/main.d4db7836.js.map",
     "453.d44b3402.chunk.js.map": "/czar_portfolio/static/js/453.d44b3402.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b10224a.css",
-    "static/js/main.c9d96ae3.js"
+    "static/js/main.d4db7836.js"
   ]
 }
