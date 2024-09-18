@@ -1,42 +1,42 @@
 [
     {
       "title": "WaCO",
-      "imgUrl": "../assets/img/Certificates/[certificate]WaCO.jpg",
+      "imgUrl": "",
       "skills": "Web and Cloud Operations"
     },
     {
       "title": "Cloud Computing",
-      "imgUrl": "../assets/img/Certificates/[certificate]Cloud_Computing.jpg",
+      "imgUrl": "../assets/img/Certificates/Cloud_Computing.jpg",
       "skills": "Cloud Infrastructure and Management"
     },
     {
       "title": "AI with GPT",
-      "imgUrl": "../assets/img/Certificates/[certificate]ItGAIwGPT.jpg",
+      "imgUrl": "../assets/img/Certificates/ItGAIwGPT.jpg",
       "skills": "Artificial Intelligence"
     },
     {
       "title": "Introduction to General AI",
-      "imgUrl": "../assets/img/Certificates/[certificate]IGAI.jpg",
+      "imgUrl": "../assets/img/Certificates/IGAI.jpg",
       "skills": "AI Fundamentals"
     },
     {
       "title": "CPI",
-      "imgUrl": "../assets/img/Certificates/[certificate]CPI.jpg",
+      "imgUrl": "../assets/img/Certificates/CPI.jpg",
       "skills": "Certified Professional Instructor"
     },
     {
       "title": "Blockchain Basics",
-      "imgUrl": "../assets/img/Certificates/[certificate]Blockchain_Basics.jpg",
+      "imgUrl": "../Blockchain_Basics.jpg",
       "skills": "Blockchain Technology"
     },
     {
       "title": "Cyber Security",
-      "imgUrl": "../assets/img/Certificates/[certificate]CyberSecurity.jpg",
+      "imgUrl": "../assets/img/Certificates/CyberSecurity.jpg",
       "skills": "Network and Information Security"
     },
     {
       "title": "IoT Fundamentals",
-      "imgUrl": "../assets/img/Certificates/[certificate]IoT_Fundamentals.jpg",
+      "imgUrl": "../assets/img/Certificates/IoT_Fundamentals.jpg",
       "skills": "Internet of Things"
     }
   ]
