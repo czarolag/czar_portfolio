@@ -30,7 +30,9 @@ export const NavBar = () => {
         <Navbar expand="lg" className={scrolled ? 'scrolled' : ''}>
             <Container>
                 <Navbar.Brand href="/">
-                    <img src={logos.logo} alt="Logo" />
+                    <Link to="/">
+                        <img src={logos.logo} alt="Logo" />
+                    </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
