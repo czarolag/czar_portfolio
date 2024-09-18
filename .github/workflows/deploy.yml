@@ -17,6 +17,15 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+      - name: Cache node modules
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.npm
+            !~/.npm/_logs
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
       - name: Detect package manager
         id: detect-package-manager
         run: |
@@ -37,10 +46,10 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "14"
-          cache: ${{ steps.detect-package-manager.outputs.manager }}
+          node-version: "18"  # Updated Node.js version
+          cache: npm
       - name: Install dependencies
-        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }} --verbose  # Added verbose logging
       - name: Build project
         run: ${{ steps.detect-package-manager.outputs.runner }} npm run build
       - name: Upload artifact
@@ -58,3 +67,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
+        
