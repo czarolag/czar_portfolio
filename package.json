@@ -2,7 +2,7 @@
   "name": "czar_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://czarolag.github.io/czar_portfolio",
+  "homepage": "http://czarolag.github.io/czar_portfolio/",
   "dependencies": {
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.3",
