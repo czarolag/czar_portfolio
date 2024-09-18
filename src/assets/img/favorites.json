@@ -1,0 +1,79 @@
+{
+    "shows": [
+      {
+        "title": "Black Mirror",
+        "description": "Speculative Fiction",
+        "imgUrl": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/05/black-mirror-season-6.jpg",
+        "link": "https://en.wikipedia.org/wiki/Black_Mirror"
+      },
+      {
+        "title": "Steins Gate",
+        "description": "Science Fiction, Visual Novel",
+        "imgUrl": "https://external-preview.redd.it/Kr-NFtyKjxQwhNWMzCHyjR0sf8vi7C97R4_GgAlmhAI.jpg?auto=webp&s=956fa90e35d6e6a4b0ba2a223840fa6fd620b3d6",
+        "link": "https://en.wikipedia.org/wiki/Steins;Gate_(TV_series)"
+      },
+      {
+        "title": "Daredevil",
+        "description": "Action, Crime",
+        "imgUrl": "https://m.media-amazon.com/images/S/pv-target-images/0511b31ca34b45adfd994a09f9845d38bd84f9d0b28fc0a5672bba78f86b8465._BR-6_AC_SX720_FMjpg_.jpg",
+        "link": "https://en.wikipedia.org/wiki/Daredevil_(TV_series)"
+      },
+      {
+        "title": "Breaking Bad",
+        "description": "Drama, Crime, Action",
+        "imgUrl": "https://ntvb.tmsimg.com/assets/p8696131_b_h10_aa.jpg?w=1280&h=720",
+        "link": "https://en.wikipedia.org/wiki/Breaking_Bad"
+      },
+      {
+        "title": "Spiderman: Spiderverse",
+        "description": "Animation, Action, Adventure",
+        "imgUrl": "https://ntvb.tmsimg.com/assets/p21326260_v_h8_aa.jpg?w=1280&h=720",
+        "link": "https://en.wikipedia.org/wiki/Spider-Man:_Across_the_Spider-Verse"
+      },
+      {
+        "title": "Arcane",
+        "description": "Animation, Action, Adventure, Fantasy, Sci-Fi",
+        "imgUrl": "https://lanthorn.com/wp-content/uploads/2021/12/arcane.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Arcane_(TV_series)"
+      }
+    ],
+    "games": [
+      {
+        "title": "Alan Wake 2",
+        "description": "Survival Horror, Action-Adventure",
+        "imgUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202305/3116/b1641ab1b5ec0c8f76c44e59e9d8a1639c913c98c09d057f.jpg",
+        "link": "https://en.wikipedia.org/wiki/Alan_Wake_2"
+      },
+      {
+        "title": "Control",
+        "description": "Action-Adventure",
+        "imgUrl": "https://i.ytimg.com/vi/8Idtqyx6gsU/maxresdefault.jpg",
+        "link": "https://en.wikipedia.org/wiki/Control_(video_game)"
+      },
+      {
+        "title": "Marvel Rivals",
+        "description": "Hero Shooter",
+        "imgUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2767030/capsule_616x353.jpg?t=1724827656",
+        "link": "https://en.wikipedia.org/wiki/Marvel_Rivals"
+      },
+      {
+        "title": "Hell Divers II",
+        "description": "Third-Person Shooter",
+        "imgUrl": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/02/helldivers-2-review.jpg",
+        "link": "https://en.wikipedia.org/wiki/Helldivers_2"
+      },
+      {
+        "title": "Slay the Spire",
+        "description": "Roguelike deck-building",
+        "imgUrl": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000012389/6d1d0c45eef34e20f352bd2222e036b619fa382f47385f2a8f80c137a523533e",
+        "link": "https://en.wikipedia.org/wiki/Slay_the_Spire"
+      },
+      {
+        "title": "Red Dead Redemption 2",
+        "description": "Action Adventure",
+        "imgUrl": "https://rocket-chainsaw.b-cdn.net/wp-content/uploads/2018/05/Red-Dead-Redemption-2-New-Logo.jpg",
+        "link": "https://en.wikipedia.org/wiki/Red_Dead_Redemption_2"
+      }
+    ]
+  }
+  

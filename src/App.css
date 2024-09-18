@@ -93,17 +93,18 @@ nav.navbar a.navbar-brand img {
   width: auto;
 }
 
-nav.navbar .navbar-nav .nav-link.navbar-link {
+nav.navbar .navbar-nav .navbar-link {
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
   padding: 10px 40px;
   font-size: 18px;
   opacity: 0.75;
+  text-decoration: none;
 }
 
-nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
-nav.navbar .navbar-nav a.nav-link.navbar-link.active:hover {
+nav.navbar .navbar-nav .navbar-link:hover,
+nav.navbar .navbar-nav .navbar-link.active:hover {
   opacity: 1;
   color: #f0f0f0; /* Better contrast on hover */
 }
@@ -338,6 +339,157 @@ Banner CSS
 
 /***
 END Banner CSS
+***/
+
+/***
+Favorites CSS
+***/
+.favorites {
+  padding: 80px 0;
+  background-color: black;
+  position: relative;
+}
+
+.favorites h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.favorites p {
+  color: #B8B8B8;
+  font-size: 1.125rem;
+  letter-spacing: 0.8px;
+  line-height: 1.5;
+  margin: 14px auto 30px;
+  text-align: center;
+  max-width: 56%;
+}
+
+.favorites .nav.nav-pills {
+  max-width: 72%;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+.favorites .nav-pills .nav-item {
+  width: 50%;
+}
+
+.favorites .nav-pills .nav-link {
+  background-color: transparent;
+  padding: 17px 0;
+  color: #fff;
+  font-size: 1.06rem;
+  font-weight: 500;
+  text-align: center;
+  transition: 0.3s ease;
+  position: relative;
+  z-index: 0;
+}
+
+.favorites .nav-pills .nav-link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(55, 85, 73, 0.5) -6%, rgba(0, 0, 0, 0.5) 112%);
+  top: 0;
+  left: 0;
+  transition: 0.3s ease;
+  z-index: -1;
+}
+
+.favorites .nav-pills .nav-link.active::before {
+  width: 100%;
+}
+
+.favorites .nav-pills .nav-link.active {
+  border: 1px solid #fff;
+}
+
+.nav-link#favorites-tabs-tab-first {
+  border-radius: 55px 0 0 55px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.nav-link#favorites-tabs-tab-second {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/*** Image Box ***/
+.fav-imgbx {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  height: 210px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.fav-imgbx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fav-imgbx::before {
+  content: "";
+  background: linear-gradient(90deg, rgba(55, 85, 73, 0.5) -6%, rgba(0, 0, 0, 0.5) 112%);
+  position: absolute;
+  width: 100%;
+  height: 0;
+  transition: 0.4s ease;
+  opacity: 0.85;
+}
+
+.fav-imgbx:hover::before {
+  height: 100%;
+}
+
+/*** Text Box ***/
+.fav-txtx {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: 0.5s ease;
+  opacity: 0;
+  width: 100%;
+  color: #8eff8a;
+}
+
+.fav-imgbx:hover .fav-txtx {
+  top: 50%;
+  opacity: 1;
+}
+
+.fav-txtx h4 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+
+.fav-txtx span {
+  font-style: italic;
+  font-size: 0.938rem;
+}
+
+/*** Background Image ***/
+.background-image-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 35%;
+  z-index: -4;
+}
+/***
+END Favorites CSS
 ***/
 
 /***

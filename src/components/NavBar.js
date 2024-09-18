@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import { nav_icons, logos } from '../assets/img'
 
 
@@ -35,34 +36,10 @@ export const NavBar = () => {
 
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link
-                            href="/"
-                            className={getLinkClass('home')}
-                            onClick={() => handleSetActiveLink('home')}
-                        >
-                            Home
-                        </Nav.Link>
-                        <Nav.Link
-                            href="/skills"
-                            className={getLinkClass('skills')}
-                            onClick={() => handleSetActiveLink('skills')}
-                        >
-                            Skills
-                        </Nav.Link>
-                        <Nav.Link
-                            href="/links"
-                            className={getLinkClass('links')}
-                            onClick={() => handleSetActiveLink('links')}
-                        >
-                            Links
-                        </Nav.Link>
-                        <Nav.Link
-                            href="/about-me"
-                            className={getLinkClass('about-me')}
-                            onClick={() => handleSetActiveLink('about-me')}
-                        >
-                            About Me
-                        </Nav.Link>
+                        <Link to="/" className={getLinkClass('home')} onClick={() => handleSetActiveLink('home')}>Home</Link>
+                        <Link to="/skills" className={getLinkClass('skills')} onClick={() => handleSetActiveLink('skills')}>Skills</Link>
+                        <Link to="/links" className={getLinkClass('links')} onClick={() => handleSetActiveLink('links')}>Links</Link>
+                        <Link to="/about" className={getLinkClass('about')} onClick={() => handleSetActiveLink('about')}>About Me</Link>
                     </Nav>
 
                     <span className="navbar-text">
