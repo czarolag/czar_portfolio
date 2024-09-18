@@ -432,6 +432,25 @@ Skills CSS
   width: 310px;
 }
 
+/* For smaller screens like tablets and mobile */
+@media (max-width: 768px) {
+  .cert-imgbx {
+    height: 150px; /* Adjusted for smaller screens */
+    width: 100%; /* Set to full width for mobile */
+    max-width: 300px; /* Cap the width on small screens */
+  }
+}
+
+/* For very small screens like smartphones */
+@media (max-width: 480px) {
+  .cert-imgbx {
+    height: 120px; /* Smaller height for compact view */
+    width: 100%; /* Full width for small screens */
+    max-width: 250px; /* Cap to ensure it doesn’t take up too much space */
+  }
+}
+
+
 .cert-imgbx img {
   width: 100%;
   height: 100%;
