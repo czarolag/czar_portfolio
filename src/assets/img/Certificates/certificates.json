@@ -1,0 +1,43 @@
+[
+    {
+      "title": "WaCO",
+      "imgUrl": "../assets/img/Certificates/[certificate]WaCO.jpg",
+      "skills": "Web and Cloud Operations"
+    },
+    {
+      "title": "Cloud Computing",
+      "imgUrl": "../assets/img/Certificates/[certificate]Cloud_Computing.jpg",
+      "skills": "Cloud Infrastructure and Management"
+    },
+    {
+      "title": "AI with GPT",
+      "imgUrl": "../assets/img/Certificates/[certificate]ItGAIwGPT.jpg",
+      "skills": "Artificial Intelligence"
+    },
+    {
+      "title": "Introduction to General AI",
+      "imgUrl": "../assets/img/Certificates/[certificate]IGAI.jpg",
+      "skills": "AI Fundamentals"
+    },
+    {
+      "title": "CPI",
+      "imgUrl": "../assets/img/Certificates/[certificate]CPI.jpg",
+      "skills": "Certified Professional Instructor"
+    },
+    {
+      "title": "Blockchain Basics",
+      "imgUrl": "../assets/img/Certificates/[certificate]Blockchain_Basics.jpg",
+      "skills": "Blockchain Technology"
+    },
+    {
+      "title": "Cyber Security",
+      "imgUrl": "../assets/img/Certificates/[certificate]CyberSecurity.jpg",
+      "skills": "Network and Information Security"
+    },
+    {
+      "title": "IoT Fundamentals",
+      "imgUrl": "../assets/img/Certificates/[certificate]IoT_Fundamentals.jpg",
+      "skills": "Internet of Things"
+    }
+  ]
+  

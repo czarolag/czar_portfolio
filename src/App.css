@@ -342,6 +342,153 @@ END Banner CSS
 ***/
 
 /***
+Skills CSS
+***/
+.skills {
+  margin-top: 0;
+  padding: 150px 0 100px 0;
+  background-image: url('./assets/img/banner-background.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.skills_container {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.skills h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.25rem; /* Responsive font size */
+  font-weight: bold;
+}
+
+.skills h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills ul li {
+  font-size: 1.125rem;
+  padding: 5px 0;
+  border-bottom: 1px solid #fff;
+}
+
+.skills ul li:last-child {
+  border-bottom: none;
+}
+
+.skills .skills_container {
+  background: linear-gradient(180deg, rgba(55, 85, 73, 1) -5.91%, rgba(0, 0, 0, 1) 111.58%);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.certificates_container {
+  margin-top: 100px;
+}
+
+.certificate-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+
+.certificate-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.certificate-slider .item img {
+  width: 100%;
+  margin: 0 auto 15px auto;
+}
+
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
+
+.cert-imgbx {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  height: 210px;
+  width: 310px;
+}
+
+.cert-imgbx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures images fit within the box */
+}
+
+.cert-imgbx::before {
+  content: "";
+  background: linear-gradient(90.21deg, rgba(55, 85, 73, 0.5) -5.91%, rgba(0, 0, 0, 0.5) 111.58%);
+  opacity: 0.85;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  transition: height 0.4s ease-in-out;
+}
+
+.cert-imgbx:hover::before {
+  height: 100%;
+}
+
+.cert-txtx {
+  color: #8eff8a;
+  position: absolute;
+  text-align: center;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: top 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  opacity: 0;
+  width: 100%;
+}
+
+.cert-imgbx:hover .cert-txtx {
+  top: 50%;
+  opacity: 1;
+}
+
+.cert-txtx h4 {
+  font-size: 1.875rem; /* Responsive font size */
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+}
+
+.cert-txtx span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  letter-spacing: 0.8px;
+}
+/***
+END Skills CSS
+***/
+
+/***
 Favorites CSS
 ***/
 .favorites {
