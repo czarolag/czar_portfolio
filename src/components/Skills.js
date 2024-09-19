@@ -2,16 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { CertificateCard } from "./CertificateCard";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-
-import Web_Cloud from "../assets/img/Certificates/WaCO.jpg"
-import Cloud_Computing from "../assets/img/Certificates/Cloud_Computing.jpg"
-import AI_GPT from "../assets/img/Certificates/ItGAIwGPT.jpg"
-import General_AI from "../assets/img/Certificates/IGAI.jpg"
-import COMPSCI_Principals from "../assets/img/Certificates/CPI.jpg"
-import Blockchain_Basics from "../assets/img/Certificates/Blockchain_Basics.jpg"
-import Cyber_Security from "../assets/img/Certificates/CyberSecurity.jpg"
-import IoT_Fundamentals from "../assets/img/Certificates/IoT_Fundamentals.jpg"
-
+import { certificates } from "../assets/img";
 import 'animate.css';
 
 
@@ -25,45 +16,45 @@ export const Skills = () => {
         mobile: { breakpoint: { max: 464, min: 0 }, items: 1 },
     };
 
-    const certificates = [
+    const certificatesData = [
         {
             "title": "Online Collaboration",
-            "imgUrl": Web_Cloud,
+            "imgUrl": certificates.Web_Cloud,
             "skills": "Web and Cloud Operations"
           },
           {
             "title": "Cloud Computing",
-            "imgUrl": Cloud_Computing,
+            "imgUrl": certificates.Cloud_Computing,
             "skills": "Cloud Infrastructure and Management"
           },
           {
             "title": "AI with GPT",
-            "imgUrl": AI_GPT,
+            "imgUrl": certificates.AI_GPT,
             "skills": "Artificial Intelligence"
           },
           {
             "title": "Introduction to General AI",
-            "imgUrl": General_AI,
+            "imgUrl": certificates.General_AI,
             "skills": "AI Fundamentals"
           },
           {
             "title": "CPI",
-            "imgUrl": COMPSCI_Principals,
+            "imgUrl": certificates.COMPSCI_Principals,
             "skills": "Java, Python, Logic"
           },
           {
             "title": "Blockchain Basics",
-            "imgUrl": Blockchain_Basics,
+            "imgUrl": certificates.Blockchain_Basics,
             "skills": "Blockchain Technology"
           },
           {
             "title": "Cyber Security",
-            "imgUrl": Cyber_Security,
+            "imgUrl": certificates.Cyber_Security,
             "skills": "Network and Information Security"
           },
           {
             "title": "IoT Fundamentals",
-            "imgUrl": IoT_Fundamentals,
+            "imgUrl": certificates.IoT_Fundamentals,
             "skills": "Internet of Things"
           }
     ];
@@ -105,7 +96,7 @@ export const Skills = () => {
                             <h2>Certificates</h2>
                             <p>A showcase of my certificates and the skills gained.</p>
                             <Carousel responsive={responsive} infinite={true} className="certificate-slider">
-                                {certificates.map((certificate, index) => (
+                                {certificatesData.map((certificate, index) => (
                                     <div key={index} className="item">
                                         <CertificateCard {...certificate} />
                                     </div>
