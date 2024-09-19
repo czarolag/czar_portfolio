@@ -404,6 +404,15 @@ Skills CSS
   margin-top: -60px;
 }
 
+/* For very small screens like smartphones */
+@media (max-width: 480px) {
+  .certificate-bx {
+    height: 450px; /* Increased height for smartphones */
+    padding: 30px 20px; /* Reduced padding for a tighter layout */
+    margin: 0 auto; /* Centering the box */
+  }
+}
+
 .certificate-slider {
   width: 80%;
   margin: 0 auto;
@@ -435,7 +444,7 @@ Skills CSS
 /* For smaller screens like tablets and mobile */
 @media (max-width: 768px) {
   .cert-imgbx {
-    height: 150px; /* Adjusted for smaller screens */
+    height: 180px; /* Adjusted for smaller screens */
     width: 100%; /* Set to full width for mobile */
     max-width: 300px; /* Cap the width on small screens */
   }
@@ -444,7 +453,7 @@ Skills CSS
 /* For very small screens like smartphones */
 @media (max-width: 480px) {
   .cert-imgbx {
-    height: 120px; /* Smaller height for compact view */
+    height: 150px; /* Smaller height for compact view */
     width: 100%; /* Full width for small screens */
     max-width: 250px; /* Cap to ensure it doesn’t take up too much space */
   }
