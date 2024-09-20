@@ -40,8 +40,8 @@ export const NavBar = () => {
                     <Nav className="me-auto">
                         <Link to="/" className={getLinkClass('home')} onClick={() => handleSetActiveLink('home')}>Home</Link>
                         <Link to="/skills" className={getLinkClass('skills')} onClick={() => handleSetActiveLink('skills')}>Skills</Link>
-                        <Link to="/links" className={getLinkClass('links')} onClick={() => handleSetActiveLink('links')}>Links</Link>
-                        <Link to="/about" className={getLinkClass('about')} onClick={() => handleSetActiveLink('about')}>About Me</Link>
+                        <Link to="/about" className={getLinkClass('links')} onClick={() => handleSetActiveLink('links')}>About</Link>
+                        <Link to="/contact" className={getLinkClass('about')} onClick={() => handleSetActiveLink('about')}>Contact</Link>
                     </Nav>
 
                     <span className="navbar-text">

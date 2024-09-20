@@ -2,9 +2,15 @@
 Custom Fonts 
 ***/
 @font-face {
-  font-family: 'Zorgeous';
-  src: url('./assets/font/Zorgeous.otf');
-  font-weight: 400 700; /* Supports weights 400 to 700 */
+  font-family: 'Gowun Botang';
+  src: url('./assets/font/Gowun_Batang/GowunBatang-Regular.ttf');
+  font-weight: 400; /* Supports weights 400 to 700 */
+}
+
+@font-face {
+  font-family: 'Gowun Botang';
+  src: url('./assets/font/Gowun_Batang/GowunBatang-Bold.ttf');
+  font-weight: 700; /* Supports weights 400 to 700 */
 }
 
 /***
