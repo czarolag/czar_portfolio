@@ -1,0 +1,39 @@
+{
+    "projects": [
+      {
+        "title": "Project One",
+        "description": "Sample for project 1",
+        "imgUrl": "./assets/img/project1.png",
+        "projectLink": "https://github.com/yourusername/project1",
+        "techStack": "Option 1, Option 3"
+      },
+      {
+        "title": "Project Two",
+        "description": "Sample for project 2",
+        "imgUrl": "./assets/img/project2.png",
+        "projectLink": "https://github.com/yourusername/project2",
+        "techStack": "Option 2"
+      },
+      {
+        "title": "Project Three",
+        "description": "Sample for project 3",
+        "imgUrl": "./assets/img/project2.png",
+        "projectLink": "https://github.com/yourusername/project2",
+        "techStack": "Option 2, Option 3"
+      },
+      {
+        "title": "Project Four",
+        "description": "Sample for project 4",
+        "imgUrl": "./assets/img/project2.png",
+        "projectLink": "https://github.com/yourusername/project2",
+        "techStack": "Option 1"
+      },
+      {
+        "title": "Project Five",
+        "description": "Sample for project 5",
+        "imgUrl": "./assets/img/project2.png",
+        "projectLink": "https://github.com/yourusername/project2",
+        "techStack": "Option 3"
+      }
+    ]
+  }
