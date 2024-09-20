@@ -40,14 +40,14 @@ export const NavBar = () => {
                     <Nav className="me-auto">
                         <Link to="/" className={getLinkClass('home')} onClick={() => handleSetActiveLink('home')}>Home</Link>
                         <Link to="/skills" className={getLinkClass('skills')} onClick={() => handleSetActiveLink('skills')}>Skills</Link>
-                        <Link to="/about" className={getLinkClass('links')} onClick={() => handleSetActiveLink('links')}>About</Link>
-                        <Link to="/contact" className={getLinkClass('about')} onClick={() => handleSetActiveLink('about')}>Contact</Link>
+                        <Link to="/projects" className={getLinkClass('projects')} onClick={() => handleSetActiveLink('projects')}>Projects</Link>
+                        <Link to="/contact" className={getLinkClass('contact')} onClick={() => handleSetActiveLink('contact')}>Contact</Link>
                     </Nav>
 
                     <span className="navbar-text">
                         <div className="social-icon">
                             
-                            <a href="/" aria-label="Social Link 1">
+                            <a href="https://www.linkedin.com/in/cesar-olague-225769214/" target="_blank" rel="noopener noreferrer" aria-label="Social Link 1">
                                 <img src={nav_icons.navIcon1} alt="Social Icon 1" />
                             </a>
                             <a href="/" aria-label="Social Link 2">
