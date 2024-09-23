@@ -47,11 +47,11 @@ export const Projects = () => {
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link 
-                  eventKey="Option 1" 
-                  onClick={() => filterProjects("Option 1")} 
-                  className={activeFilter === "Option 1" ? "active" : ""}
+                  eventKey="Python" 
+                  onClick={() => filterProjects("Python")} 
+                  className={activeFilter === "Python" ? "active" : ""}
                 >
-                  Option1
+                  Python
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
@@ -65,11 +65,11 @@ export const Projects = () => {
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link 
-                  eventKey="Option 3" 
-                  onClick={() => filterProjects("Option 3")} 
-                  className={activeFilter === "MongoDB" ? "active" : ""}
+                  eventKey="API" 
+                  onClick={() => filterProjects("API")} 
+                  className={activeFilter === "API" ? "active" : ""}
                 >
-                  Option3
+                  API
                 </Nav.Link>
               </Nav.Item>
             </Nav>

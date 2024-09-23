@@ -1,25 +1,25 @@
 {
     "projects": [
       {
-        "title": "Project One",
-        "description": "Sample for project 1",
+        "title": "Animal Recognition Model (CNN)",
+        "description": "Created a Convolutional Neural Network to identify a type of animal from a selection.",
         "imgUrl": "./assets/img/project1.png",
-        "projectLink": "https://github.com/yourusername/project1",
-        "techStack": "Option 1, Option 3"
+        "projectLink": "https://colab.research.google.com/drive/1EvkZLDbSiKWSc8jYNYCql5vhM3gzMsTs",
+        "techStack": "TensorFlow, AI, Python"
       },
       {
-        "title": "Project Two",
-        "description": "Sample for project 2",
+        "title": "Discord Bot (Google Sheets)",
+        "description": "Created a discord bot for google sheets integration, which allowed a user to edit google sheets from discord.",
         "imgUrl": "./assets/img/project2.png",
-        "projectLink": "https://github.com/yourusername/project2",
-        "techStack": "Option 2"
+        "projectLink": "https://github.com/czarolag/DiscordBot",
+        "techStack": "API, Python, Discord"
       },
       {
-        "title": "Project Three",
-        "description": "Sample for project 3",
+        "title": "Vacapedia (Wiki-Project)",
+        "description": "Worked with a group to create a wikipedia page on Vacation spots. Handled user login, logout, and password encryption for security.",
         "imgUrl": "./assets/img/project2.png",
-        "projectLink": "https://github.com/yourusername/project2",
-        "techStack": "Option 2, Option 3"
+        "projectLink": "https://github.com/czarolag/wiki-project",
+        "techStack": "Flask, CSS, HTML, Python, Jinja, FullStack, Collaboration"
       },
       {
         "title": "Project Four",
