@@ -17,6 +17,13 @@ import Blockchain_Basics from "./Certificates/Blockchain_Basics.jpg"
 import Cyber_Security from "./Certificates/CyberSecurity.jpg"
 import IoT_Fundamentals from "./Certificates/IoT_Fundamentals.jpg"
 
+// projects
+import wiki_demo from "./Projects/wiki_project.png"
+import discord_bot_demo from "./Projects/discord_bot.png"
+import animal_recognition_demo from "./Projects/animal_recognition.png"
+import bank_program_demo from "./Projects/bank_program.png"
+import regular_operations_demo from "./Projects/regular_operations.png"
+
 
 
 export const nav_icons = {
@@ -39,4 +46,12 @@ export const certificates = {
     Blockchain_Basics,
     Cyber_Security,
     IoT_Fundamentals,
-}
+};
+
+export const project_imgs = {
+    wiki_demo,
+    discord_bot_demo,
+    animal_recognition_demo,
+    regular_operations_demo,
+    bank_program_demo,
+};
