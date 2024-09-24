@@ -121,8 +121,8 @@ span.navbar-text {
 }
 
 .social-icon a {
-  width: 42px;
-  height: 42px;
+  width: 45px;
+  height: 45px;
   background: #2f3f34;
   display: inline-flex;
   border-radius: 50%;
@@ -136,8 +136,8 @@ span.navbar-text {
 
 .social-icon a::before {
   content: "";
-  width: 42px;
-  height: 42px;
+  width: 45px;
+  height: 45px;
   position: absolute;
   background-color: #2f3f34;
   border-radius: 50%;

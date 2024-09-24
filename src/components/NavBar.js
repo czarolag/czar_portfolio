@@ -47,13 +47,13 @@ export const NavBar = () => {
                     <span className="navbar-text">
                         <div className="social-icon">
                             
-                            <a href="https://www.linkedin.com/in/cesar-olague-225769214/" target="_blank" rel="noopener noreferrer" aria-label="Social Link 1">
+                            <a href="https://www.hackerrank.com/profile/czarolag" target="_blank" rel="noopener noreferrer" aria-label="Social Link 1">
                                 <img src={nav_icons.navIcon1} alt="Social Icon 1" />
                             </a>
-                            <a href="/" aria-label="Social Link 2">
+                            <a href="https://leetcode.com/u/colague3/" target="_blank" rel="noopener noreferrer" aria-label="Social Link 2">
                                 <img src={nav_icons.navIcon2} alt="Social Icon 2" />
                             </a>
-                            <a href="/" aria-label="Social Link 3">
+                            <a href="https://github.com/czarolag" target="_blank" rel="noopener noreferrer" aria-label="Social Link 3">
                                 <img src={nav_icons.navIcon3} alt="Social Icon 3" />
                             </a>
                         </div>
