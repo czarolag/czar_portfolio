@@ -68,14 +68,23 @@ export default class Form extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault(); // Prevent page reload
-    const templateId = templateKey;
-    
-    this.sendMessage(templateId, { 
-        message_html: this.state.message, 
-        from_name: this.state.name, 
-        reply_to: this.state.email 
+
+    // Trigger reCAPTCHA and get the token
+    window.grecaptcha.ready(() => {
+      window.grecaptcha.execute('6LepKk8qAAAAAJWUHFoIKgUf1bqEEWi_lrq2FOOm', { action: 'submit' }).then(token => {
+        
+        const templateId = templateKey;
+
+        // Include the reCAPTCHA token in the form data
+        this.sendMessage(templateId, { 
+          message_html: this.state.message, 
+          from_name: this.state.name, 
+          reply_to: this.state.email,
+          'g-recaptcha-response': token // Pass the reCAPTCHA token here
+        });
       });
-    }
+    });
+  }
   
   sendMessage(templateId, variables) {
     window.emailjs.send(
