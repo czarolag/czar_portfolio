@@ -27,7 +27,7 @@ export const Favorites = () => {
       <Container>
         <Row>
           <Col size={12}>
-            <h2>Favorite Shows/Films/Games</h2>
+            <h2>Favorite Films & Games</h2>
             <p>
               Here is a list of some of my all-time favorite films and shows as well as games.
               These games and films provided stories that have captivated my imagination.

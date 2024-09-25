@@ -250,7 +250,7 @@ Banner CSS
 ***/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 200px 0 100px 0;
   background-image: url('./assets/img/banner-background.png');
   background-position: top center;
   background-size: cover;
@@ -682,6 +682,7 @@ Projects CSS
   background-color: #151c24;
   color: #fff;
   text-align: center;
+  background-image: url('./assets/img/banner-background.png');
 }
 
 .projects h2 {
@@ -876,6 +877,7 @@ END Projects CSS
 Contact CSS
 ***/
 .about-me-container {
+  background-image: url('./assets/img/banner-background.png');
   margin-top: 0;
   padding: 150px 0 100px 0;
   display: flex;
