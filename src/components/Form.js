@@ -56,6 +56,8 @@ export default class Form extends React.Component {
           />
         </div>
 
+        <div className="g-recaptcha" data-sitekey="6LepKk8qAAAAAJWUHFoIKgUf1bqEEWi_lrq2FOOm"></div>
+
         <button type="submit" className="btn btn--submit">Submit</button>
       </form>
     );
@@ -68,24 +70,24 @@ export default class Form extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault(); // Prevent page reload
-
-    // Trigger reCAPTCHA and get the token
+    
+    // Ensure reCAPTCHA is ready before executing
     window.grecaptcha.ready(() => {
-      window.grecaptcha.execute('6LepKk8qAAAAAJWUHFoIKgUf1bqEEWi_lrq2FOOm', { action: 'submit' }).then(token => {
-        
-        const templateId = templateKey;
-
-        // Include the reCAPTCHA token in the form data
-        this.sendMessage(templateId, { 
-          message_html: this.state.message, 
-          from_name: this.state.name, 
-          reply_to: this.state.email,
-          'g-recaptcha-response': token // Pass the reCAPTCHA token here
-        });
-      });
+      window.grecaptcha.execute('6LepKk8qAAAAAJWUHFoIKgUf1bqEEWi_lrq2FOOm', { action: 'submit' })
+        .then((token) => {
+          const templateId = templateKey;
+          
+          this.sendMessage(templateId, { 
+            message_html: this.state.message, 
+            from_name: this.state.name, 
+            reply_to: this.state.email,
+            'g-recaptcha-response': token // Include the reCAPTCHA token
+          });
+        })
+        .catch(err => console.error('Error executing reCAPTCHA:', err));
     });
   }
-  
+
   sendMessage(templateId, variables) {
     window.emailjs.send(
       serviceKey, 
@@ -96,6 +98,7 @@ export default class Form extends React.Component {
       console.log('Email successfully sent!');
       // Clear form after submission
       this.setState({ message: '', name: '', email: '' });
+      window.grecaptcha.reset();
     })
     .catch(err => console.error('An error occurred: ', err));
   }
