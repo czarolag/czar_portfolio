@@ -71,7 +71,7 @@ export default class Form extends React.Component {
     const templateId = templateKey;
     
     this.sendFeedback(templateId, { 
-        message_html: this.state.feedback, 
+        message_html: this.state.message, 
         from_name: this.state.name, 
         reply_to: this.state.email 
       });
@@ -86,7 +86,7 @@ export default class Form extends React.Component {
     .then(res => {
       console.log('Email successfully sent!');
       // Clear form after submission
-      this.setState({ feedback: '', name: '', email: '' });
+      this.setState({ message: '', name: '', email: '' });
     })
     .catch(err => console.error('An error occurred: ', err));
   }
