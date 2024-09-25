@@ -1,41 +1,31 @@
 import React from 'react';
+import Form from './Form'
+
+// placeholder, actual is :Github, LinkedIn, Email
+import { nav_icons } from '../assets/img'
+
 
 export const Contact = () => {
   return (
-    <div className="about-me-container">
-      <div className="profile-section">
-        <img 
-          src="your-profile-picture-url.jpg" 
-          alt="Profile" 
-          className="profile-picture"
-        />
-        <h1>About Me</h1>
-        <p className="bio">
-          Temp
-          <br/><br/>
-          Temp
-        </p>
-      </div>
-      
+    <div className="contact-container">
       <div className="contact-section">
-        <h2>Contact Me</h2>
-        <ul>
-          <li>
-            <a href="https://github.com/czarolag" target="_blank" rel="noopener noreferrer">
-              GitHub
+        <h1>Contact Me</h1>
+        <p>Need to get in touch or have any questions? Contact me at any of the following sources.</p>
+        <span className="contact-text">
+          <div className="contact-icon">
+            <a href="https://www.hackerrank.com/profile/czarolag" target="_blank" rel="noopener noreferrer" aria-label="Social Link 1">
+              <img src={nav_icons.navIcon1} alt="Social Icon 1" />
             </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/cesar-olague-225769214/" target="_blank" rel="noopener noreferrer">
-              LinkedIn
+            <a href="https://leetcode.com/u/colague3/" target="_blank" rel="noopener noreferrer" aria-label="Social Link 2">
+              <img src={nav_icons.navIcon2} alt="Social Icon 2" />
             </a>
-          </li>
-          <li>
-            <a href="mailto:czarolag@gmail.com">
-              Email
+            <a href="https://github.com/czarolag" target="_blank" rel="noopener noreferrer" aria-label="Social Link 3">
+              <img src={nav_icons.navIcon3} alt="Social Icon 3" />
             </a>
-          </li>
-        </ul>
+          </div>
+        </span>
+
+        <Form />
       </div>
     </div>
   );

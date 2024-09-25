@@ -876,58 +876,72 @@ END Projects CSS
 /***
 Contact CSS
 ***/
-.about-me-container {
+.contact-container {
   background-image: url('./assets/img/banner-background.png');
   margin-top: 0;
-  padding: 150px 0 100px 0;
+  padding: 200px 0 150px 0;
   display: flex;
   flex-direction: column;
   align-items: center; 
 }
 
-.profile-section {
+.contact-section {
+  margin-top: 10px;
+}
+
+.contact-section h1 {
+  margin-bottom: 25px;
   text-align: center;
 }
 
-.profile-picture {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  margin-bottom: 20px;
+.contact-section p {
+  text-align: center;
 }
 
-.bio {
-  font-size: 1.2rem;
-  color: #333;
-  line-height: 1.6;
-  max-width: 600px;
+span.contact-text {
+  display: flex;
+  align-items: center;
 }
 
-.contact-section {
-  margin-top: 40px;
+.contact-icon a {
+  width: 60px;
+  height: 60px;
+  background: #2f3f34;
+  display: inline-flex;
+  margin-right: 6px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid #3f2227;
+  position: relative;
 }
 
-.contact-section ul {
-  list-style-type: none;
-  padding: 0;
+.contact-icon a::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  background-color: #2f3f34;
+  transform: scale(0);
+  transition: 0.3s ease-in-out;
 }
 
-.contact-section li {
-  margin-bottom: 10px;
+.contact-icon a:hover::before {
+  transform: scale(1);
 }
 
-.contact-section a {
-  text-decoration: none;
-  color: #007bff;
+.contact-icon a img {
+  width: 40%;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
 }
 
-.contact-section a:hover {
-  text-decoration: underline;
+.contact-icon a:hover img {
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 
 /***
-END About CSS
+END Contact CSS
 ***/
 
 /***

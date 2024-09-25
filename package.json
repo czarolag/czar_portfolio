@@ -4,8 +4,10 @@
   "private": true,
   "homepage": "http://czarolag.github.io/czar_portfolio/",
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.3",
+    "emailjs-com": "^3.2.0",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
     "react-bootstrap-icons": "^1.11.4",
