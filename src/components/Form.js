@@ -51,7 +51,7 @@ export default class Form extends React.Component {
             onChange={this.handleChange}
             placeholder="Send me any questions or comments!"
             required
-            value={this.state.feedback}
+            value={this.state.message}
             style={{ width: '100%', height: '150px' }}
           />
         </div>
@@ -70,14 +70,14 @@ export default class Form extends React.Component {
     event.preventDefault(); // Prevent page reload
     const templateId = templateKey;
     
-    this.sendFeedback(templateId, { 
+    this.sendMessage(templateId, { 
         message_html: this.state.message, 
         from_name: this.state.name, 
         reply_to: this.state.email 
       });
     }
   
-  sendFeedback(templateId, variables) {
+  sendMessage(templateId, variables) {
     window.emailjs.send(
       serviceKey, 
       templateId,
