@@ -15,8 +15,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env: 
-      EMAILJS_SERVICE_KEY: ${{ secrets.EMAILJS_SERVICE_KEY }}
-      EMAILJS_TEMPLATE_KEY: ${{ secrets.EMAILJS_TEMPLATE_KEY }}
+      REACT_APP_EMAILJS_SERVICE_KEY: ${{ secrets.EMAILJS_SERVICE_KEY }}
+      REACT_APP_EMAILJS_TEMPLATE_KEY: ${{ secrets.EMAILJS_TEMPLATE_KEY }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4

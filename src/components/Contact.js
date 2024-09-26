@@ -1,5 +1,5 @@
 import React from 'react';
-import Form from './Form'
+import { Form } from './Form'
 
 // placeholder, actual is :Github, LinkedIn, Email
 import { nav_icons } from '../assets/img'
@@ -26,6 +26,7 @@ export const Contact = () => {
         </span>
 
         <Form />
+
       </div>
     </div>
   );
