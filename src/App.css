@@ -879,67 +879,125 @@ Contact CSS
 .contact-container {
   background-image: url('./assets/img/banner-background.png');
   margin-top: 0;
-  padding: 200px 0 150px 0;
+  padding: 100px 0 200px 0;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
 }
 
 .contact-section {
   margin-top: 10px;
+  text-align: center;
+  width: 100%;
 }
 
 .contact-section h1 {
+  margin-top: 100px;
   margin-bottom: 25px;
-  text-align: center;
+  font-size: 2.5rem;
 }
 
 .contact-section p {
-  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+  color: #ccc;
 }
 
-span.contact-text {
+/* Contact Icons */
+.contact-icon-container {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  margin: 40px;
 }
 
-.contact-icon a {
+.contact-icon-container a {
   width: 60px;
   height: 60px;
-  background: #2f3f34;
+  background-color: #2f3f34;
   display: inline-flex;
-  margin-right: 6px;
+  margin: 0 15px; /* Space between icons */
   align-items: center;
   justify-content: center;
-  line-height: 1;
-  border: 1px solid #3f2227;
   position: relative;
+  border: 1px solid #3f2227;
+  transition: all 0.3s ease-in-out;
 }
 
-.contact-icon a::before {
-  content: "";
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  background-color: #2f3f34;
-  transform: scale(0);
-  transition: 0.3s ease-in-out;
+.contact-icon-container a:hover {
+  transform: scale(1.1); /* Slight hover effect */
 }
 
-.contact-icon a:hover::before {
-  transform: scale(1);
-}
-
-.contact-icon a img {
-  width: 40%;
+.contact-icon-container a img {
+  width: 75%;
   z-index: 1;
-  transition: 0.3s ease-in-out;
 }
 
-.contact-icon a:hover img {
+.contact-icon-container a:hover img {
   filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 
+/* Contact Form */
+.form-container {
+  width: 100%;
+  max-width: 500px; /* Center the form and constrain width */
+  margin: 0 auto;
+}
+
+form {
+  background-color: #1f2a38; /* Match theme */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #151c24;
+  color: #fff;
+}
+
+form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 50px 20px; /* Reduce padding for mobile */
+  }
+
+  .contact-icon-container a {
+    width: 50px;
+    height: 50px;
+  }
+
+  .contact-section h1 {
+    font-size: 2rem;
+  }
+
+  .contact-section p {
+    font-size: 1rem;
+  }
+}
 /***
 END Contact CSS
 ***/
