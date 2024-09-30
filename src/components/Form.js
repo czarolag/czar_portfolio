@@ -31,17 +31,6 @@ export const Form = () => {
   };
 
   return (
-<<<<<<< HEAD
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="from_name" required />
-      <label>Email</label>
-      <input type="email" name="reply_to" required />
-      <label>Message</label>
-      <textarea name="message_html" required />
-      <input type="submit" value="Send" />
-    </form>
-=======
     <div>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
@@ -57,6 +46,5 @@ export const Form = () => {
       {emailSent && <p className="success">Email sent successfully!</p>}
       {errorMessage && <p className="danger">{errorMessage}</p>}
     </div>
->>>>>>> c55e65445321bb9b84c3784b035e2686ae208c84
   );
 };

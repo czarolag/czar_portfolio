@@ -4,9 +4,7 @@ export const ProjectsCard = ({ title, description, imgUrl, projectLink, techStac
   return (
     <Col xs={12} sm={6} md={4}>
       <div className="project-card">
-        <a href={imgUrl}>
-          <img src={imgUrl} alt={title} className="project-img" />
-        </a>
+        <img src={imgUrl} alt={title} className="project-img" />
         <div className="project-info">
           <h4>{title}</h4>
           <p>{description}</p>
