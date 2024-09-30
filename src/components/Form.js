@@ -30,7 +30,6 @@ export const Form = () => {
   return (
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
-      <br></br>
       <input type="text" name="from_name" required />
       <label>Email</label>
       <input type="email" name="reply_to" required />
