@@ -35,11 +35,11 @@ export const Form = () => {
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <br></br>
-        <input type="text" name="from_name" required />
+        <input type="text" name="from_name" placeholder="Name to refer as" required />
         <label>Email</label>
-        <input type="email" name="reply_to" required />
+        <input type="email" name="reply_to" placeholder="Email required for response" required />
         <label>Message</label>
-        <textarea name="message_html" required maxLength="3000"/>
+        <textarea name="message_html" placeholder="Message to send" required maxLength="3000"/>
         <input type="submit" value="Send" />
       </form>
 
